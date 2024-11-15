@@ -1,7 +1,3 @@
-Here’s the updated `README.md` content using backticks (`) instead of bash:
-
----
-
 # Contact Management CRM System
 
 This project is a contact management feature for a Customer Relationship Management (CRM) system. It allows users to perform CRUD (Create, Read, Update, Delete) operations on contacts. The app is built with a **ReactJS** frontend and a **Node.js/Express** backend, with **MySQL** as the database and **Sequelize** for ORM.
