@@ -1,3 +1,7 @@
+Here’s the updated `README.md` content using backticks (`) instead of bash:
+
+---
+
 # Contact Management CRM System
 
 This project is a contact management feature for a Customer Relationship Management (CRM) system. It allows users to perform CRUD (Create, Read, Update, Delete) operations on contacts. The app is built with a **ReactJS** frontend and a **Node.js/Express** backend, with **MySQL** as the database and **Sequelize** for ORM.
@@ -36,7 +40,7 @@ Follow these steps to get the project running on your local machine.
 
 ### 1. Clone the Repository
 
-```bash
+``` 
 git clone https://github.com/yourusername/contact-management-crm.git
 cd contact-management-crm
 ```
@@ -45,47 +49,47 @@ cd contact-management-crm
 
 1. Navigate to the 'backend' folder:
 
-   ```bash
-   cd backend
-   ```
+``` 
+cd backend
+```
 
 2. Install backend dependencies:
 
-   ```bash
-   npm install
-   ```
+``` 
+npm install
+```
 
 3. Create a `.env` file in the 'backend' directory and add the following environment variables:
 
-   ```
-   PORT=5000
-   DB_HOST=localhost
-   DB_USER=root
-   DB_PASSWORD=yourpassword
-   DB_NAME=contacts_db
-   ```
+```
+PORT=5000
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_NAME=contacts_db
+```
 
 4. Create your MySQL database. If you're using a MySQL client, run the following script to create the `contacts_db` database:
 
-   ```sql
-   CREATE DATABASE contacts_db;
-   ```
+```sql
+CREATE DATABASE contacts_db;
+```
 
 5. Set up your database schema by running the Sequelize migration:
 
-   ```bash
-   npx sequelize db:migrate
-   ```
+```
+npx sequelize db:migrate
+```
 
-   This will create the `Contacts` table based on the Sequelize model in `contactModel.js`.
+This will create the `Contacts` table based on the Sequelize model in `contactModel.js`.
 
 6. Start the backend server:
 
-   ```bash
-   npm start
-   ```
+```
+npm start
+```
 
-   The backend API will be running at `http://localhost:5000`.
+The backend API will be running at `http://localhost:5000`.
 
 ### 3. Database Schema
 
@@ -109,23 +113,23 @@ CREATE TABLE Contacts (
 
 1. Navigate to the 'frontend' folder:
 
-   ```bash
-   cd frontend
-   ```
+``` 
+cd frontend
+```
 
 2. Install frontend dependencies:
 
-   ```bash
-   npm install
-   ```
+``` 
+npm install
+```
 
 3. Start the frontend server:
 
-   ```bash
-   npm start
-   ```
+``` 
+npm start
+```
 
-   The React app will be running at `http://localhost:3000`.
+The React app will be running at `http://localhost:3000`.
 
 ### 5. Accessing the Application
 
@@ -158,3 +162,6 @@ Once both the backend and frontend servers are running, open your browser and go
 2. **Sequelize ORM**: Using Sequelize abstracts the database interactions and makes it easier to manage migrations and models.
 3. **Separation of Concerns**: The project is structured in a way that separates the concerns of different parts of the application (e.g., components, services, controllers).
 
+---
+
+This version uses backticks for all commands and code sections as requested!
