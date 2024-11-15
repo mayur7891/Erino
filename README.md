@@ -161,7 +161,3 @@ Once both the backend and frontend servers are running, open your browser and go
 1. **Formik and Yup for Forms**: Formik simplifies form handling, and Yup ensures form validation is robust and declarative.
 2. **Sequelize ORM**: Using Sequelize abstracts the database interactions and makes it easier to manage migrations and models.
 3. **Separation of Concerns**: The project is structured in a way that separates the concerns of different parts of the application (e.g., components, services, controllers).
-
----
-
-This version uses backticks for all commands and code sections as requested!
